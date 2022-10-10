@@ -1,0 +1,96 @@
+:root {
+  --dark: #161619;
+  --bg: #23252C;
+  --cdbg: #1A1B21;
+  --accent1: #f3bf99;
+  --accent2:#5093E2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: .85rem;
+}
+
+body {
+  background: var(--bg);
+  display: grid;
+  place-items: center;
+}
+
+
+.info {
+  text-align: center;
+}
+
+.info a {
+  text-decoration: none;
+  color: #fff;
+  font-size: .6rem;
+}
+
+.info--img {
+  margin-bottom: 1em;
+}
+
+.job {
+  color: var(--accent1);
+}
+
+.contacts {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts div {
+
+  padding: .3em 1em;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.contacts div img{
+  margin-right: 1em;
+}
+.email {
+  background: #fff;
+  color: var(--dark);
+  margin-right: 1em;
+}
+.linkedIn{
+  background: var(--accent2);
+}
+
+
+.card {
+  background: var(--cdbg);
+  margin-block: 3em;
+  border-radius: 10px;
+  width: 45vh;
+  color: #fff;
+}
+
+.main {
+  padding: 2em;
+}
+
+.main .about {
+  margin-bottom: 2em;
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: var(--dark);
+  padding: 1em 2.5em;
+  border-radius: 0 0 10px 10px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
